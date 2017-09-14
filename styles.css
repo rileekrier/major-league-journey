@@ -1,0 +1,149 @@
+* {margin: 0; padding: 0;}
+
+body {
+	background-color: white;
+}
+
+#container {
+	width: 1000px;
+	overflow: hidden;
+	margin: 25px auto;
+	background: white;
+}
+
+header {
+	width: 800px;
+	margin: 40px auto;
+}
+
+header h1 {
+	text-align: center;
+	font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+
+}
+
+header p {
+	font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
+	text-align: justify;
+}
+
+.image-banner{
+  height: 200;
+	width: 5050px;
+	margin-bottom: 80px;
+}
+
+img {
+    image-orientation: from-image;
+}
+
+/*keyframe animations*/
+.first {
+	-webkit-animation: bannermove 45s linear infinite;
+	   -moz-animation: bannermove 45s linear infinite;
+	    -ms-animation: bannermove 45s linear infinite;
+	     -o-animation: bannermove 45s linear infinite;
+	        animation: bannermove 45s linear infinite;
+}
+
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+/*
+#navigation {
+  margin: auto;
+  padding-bottom: 20px;
+  width: 90%;
+  display: block;
+
+  background:#7f7f7f;
+  background:rgba(255,255,255,0.60);
+}
+
+#workspace{
+  width: 1000px;
+	overflow: hidden;
+	margin: 50px auto;
+	background: white;
+
+  /*background:#7f7f7f;
+  background:rgba(255,255,255,0.60);*/
+}
+/*
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover
+li a:hover {
+    background-color: #111;
+}
+
+h1{
+  font-family:Helvetica;
+  margin: auto;
+  font-size: 48px;
+  width: 90%;
+}
+*/
