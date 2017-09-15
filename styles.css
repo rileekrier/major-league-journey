@@ -5,7 +5,7 @@ body {
 }
 
 #container {
-	width: 1000px;
+	width: 95%;
 	overflow: hidden;
 	margin: 25px auto;
 	background: white;
@@ -27,10 +27,45 @@ header p {
 	text-align: justify;
 }
 
+#navigation {
+  margin: auto;
+  width: 100%;
+  display: block;
+
+  background:#7f7f7f;
+  background:rgba(255,255,255,0.60);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover*/
+li a:hover {
+    background-color: #111;
+}
+
 .image-banner{
   height: 200;
 	width: 5050px;
 	margin-bottom: 80px;
+  margin-top: 10px;
 }
 
 img {
@@ -93,57 +128,3 @@ img {
  100% {
    margin-left: -2125px;
  }
-
-/*
-#navigation {
-  margin: auto;
-  padding-bottom: 20px;
-  width: 90%;
-  display: block;
-
-  background:#7f7f7f;
-  background:rgba(255,255,255,0.60);
-}
-
-#workspace{
-  width: 1000px;
-	overflow: hidden;
-	margin: 50px auto;
-	background: white;
-
-  /*background:#7f7f7f;
-  background:rgba(255,255,255,0.60);*/
-}
-/*
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover
-li a:hover {
-    background-color: #111;
-}
-
-h1{
-  font-family:Helvetica;
-  margin: auto;
-  font-size: 48px;
-  width: 90%;
-}
-*/
